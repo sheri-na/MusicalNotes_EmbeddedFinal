@@ -10,7 +10,7 @@
 
 #define PROJECT_CLOCK_FREQUENCY 4000000u #define TIMERA1_AS_GPT ((GPTIMER_Regs *)TIMA1)
 
-// BPM and
+// BPM and note length 
 #define BPM 140u 
 #define QUARTER_MS (60000u / BPM) 
 #define EIGHTH_MS (QUARTER_MS / 2) 
